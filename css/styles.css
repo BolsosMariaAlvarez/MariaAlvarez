@@ -1,0 +1,611 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Adlery Pro', sans-serif; /* Fuente principal */
+    background-color:#FFFFFF; /* Color de fondo */
+    color: #ED1E79; /* Color de texto */
+}
+
+.navbar-brand {
+    font-family: 'Lilita One', cursive; /* Fuente del logo */
+   
+}
+
+header{
+    background-color: #F7BBD4;
+}
+
+footer {
+    text-align: center; /* Alinear íconos al centro */
+    padding: 20px 0; /* Espaciado dentro del footer */
+    background-color:#F7BBD4; /* Fondo blanco */
+}
+
+footer a {
+    color: #ED1E79; /* Color de los íconos */
+    font-size: 24px; /* Tamaño de los íconos */
+    margin: 0 10px; /* Margen entre los íconos */
+}
+
+/* Estilos para las tarjetas en Conceptos 2 */
+#conceptos2 .card {
+    background-color: #FFFFFF; /* Fondo blanco */
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out;
+    text-align: center; /* Centrar el contenido */
+}
+
+#conceptos2 .card-img-top {
+    width: 100%;
+    height: 300px; /* Altura deseada */
+    object-fit: cover; /* Ajuste para cubrir */
+    
+}
+
+#conceptos2 .card-body {
+    padding: 20px;
+}
+
+#conceptos2 .card-title {
+    font-size: 24px; /* Tamaño del título */
+}
+
+#conceptos2 .card-text {
+    font-size: 16px; /* Tamaño del texto */
+}
+
+#conceptos2 .btn {
+    margin-top: 10px; /* Espacio arriba del botón */
+}
+
+#osi{
+    background-color:#FFFFFF;
+    height: 100px;
+}
+
+/* Estilos para las tarjetas en Conceptos y Conceptos 2 */
+#conceptos .card,
+#conceptos2 .card {
+    background-color: #FFFFFF; /* Fondo blanco */
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out;
+    text-align: center; /* Centrar el contenido */
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+}
+
+#conceptos .card:hover,
+#conceptos2 .card:hover {
+    transform: translateY(-10px); /* Efecto de elevación al pasar el cursor */
+}
+
+#conceptos .card-img-top,
+#conceptos2 .card-img-top {
+    width: 100%;
+    height: 300px; /* Altura deseada */
+    object-fit: cover; /* Ajuste para cubrir */
+}
+
+
+#conceptos .card-body,
+#conceptos2 .card-body {
+    padding: 20px;
+}
+
+#conceptos .card-title,
+#conceptos2 .card-title {
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio bajo el título */
+}
+
+#conceptos .card-text,
+#conceptos2 .card-text {
+    font-size: 16px; /* Tamaño del texto */
+}
+
+#conceptos .btn,
+#conceptos2 .btn {
+    margin-top: 10px; /* Espacio arriba del botón */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #D62060; /* Color de fondo normal */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* Color de texto normal */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+.navbar-nav .nav-link:hover {
+    color:slateblue; /* Color de texto al pasar el cursor */
+}
+
+.navbar:hover {
+    background-color: #ED1E79; /* Color de fondo al pasar el cursor */
+}
+
+/* Estilos para la sección de Catálogo */
+#catalogo {
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 50px 0;
+}
+
+#catalogo h1,  #titnos h1, #contacto h1{
+    text-align: center;
+    
+    font-family: 'Lilita One', cursive; /* Tipografía cursiva */
+    color: #ED1E79; /* Rosa */
+    margin-bottom: 30px;
+}
+
+ #conceptos h1 , #conceptos2 h1{
+    margin-left: -170px;
+
+    font-family: 'Lilita One', cursive; /* Tipografía cursiva */
+    color: #ED1E79; /* Rosa */
+    margin-bottom: 30px;
+}
+
+ #titnt h3, #titc h2{
+    text-align:left;
+    font-family: 'Lilita One', cursive; /* Tipografía cursiva */
+    color: #ED1E79; /* Rosa */
+    margin-bottom: 30px;
+}
+
+
+
+/* Estilos para las secciones de Catálogo */
+.catalogo-section {
+    margin-bottom: 50px;
+}
+
+/* Estilos para las tarjetas en Catálogo */
+.catalogo-section .card {
+    background-color: #F7BBD4; /* Rosa claro */
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.catalogo-section .card:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.catalogo-section .card-body {
+    text-align: center;
+}
+
+/* Estilos para organizar las tarjetas en 3 columnas */
+.catalogo-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalogo-col {
+    flex: 1 0 30%; /* Tres tarjetas por fila */
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+
+/* Estilos para la sección de Catálogo */
+#catalogo {
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 50px 0;
+}
+
+#catalogo h1,  #titnos h1, #contacto h1{
+    text-align: center;
+    
+    font-family: 'Lilita One', cursive; /* Tipografía cursiva */
+    color: #ED1E79; /* Rosa */
+    margin-bottom: 30px;
+}
+
+ #conceptos h1 , #conceptos2 h1{
+    margin-left: -170px;
+
+    font-family: 'Lilita One', cursive; /* Tipografía cursiva */
+    color: #ED1E79; /* Rosa */
+    margin-bottom: 30px;
+}
+
+ #titnt h3, #titc h2{
+    text-align:left;
+    font-family: 'Lilita One', cursive; /* Tipografía cursiva */
+    color: #ED1E79; /* Rosa */
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* Estilos para la sección Nosotros */
+#nosotros {
+    padding: 50px 0;
+}
+
+/* Estilos para las imágenes */
+.nosotros-img {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.nosotros-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.nosotros-img:hover img {
+    transform: scale(1.1);
+}
+
+.img-texto {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Adlery Pro', sans-serif;
+    font-size: 14px;
+}
+
+.nosotros-img:hover .img-texto {
+    display: block;
+}
+
+/* Estilos para el texto */
+.nosotros-texto h1 {
+    font-family: 'Adlery Pro', sans-serif;
+    color: #ED1E79;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.nosotros-texto p {
+    font-family: 'Lilita One', cursive;
+    color: #F7BBD4;
+    font-size: 1.2rem;
+}
+
+/* Estilos para los cuadros de texto dividido */
+.nosotros-cuadro {
+    background-color: #F7BBD4;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.nosotros-cuadro:hover {
+    transform: scale(1.1);
+}
+/* Estilos para la sección principal */
+.landing-content {
+    position: relative; /* Añadido para controlar el z-index */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ajusta según tu diseño */
+    background-color: #F7BBD4;
+    padding: 50px;
+}
+
+/* Estilos para la columna izquierda (imagen principal) */
+.content-left {
+    flex: 1;
+    text-align: center;
+    position: relative; /* Añadido para controlar el z-index */
+    z-index: 1; /* Añadido para controlar el z-index */
+}
+
+.content-left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la columna derecha (texto y formulario) */
+.content-right {
+    flex: 1;
+    padding: 0 50px;
+    text-align: left;
+    color: #333; /* Color de texto principal */
+    position: relative; /* Añadido para controlar el z-index */
+    z-index: 1; /* Añadido para controlar el z-index */
+}
+
+.content-right h2 {
+    font-family: 'Lilita One', cursive;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content-right p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #D62060;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #D62060;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn {
+    
+    background-color:#BF1450;
+    
+}
+
+button:hover {
+    background-color: #BF1450;
+}
+
+/* Estilos para las imágenes laterales */
+.content-side {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 25%; /* Ajusta según el tamaño deseado */
+}
+
+.left-side {
+    left: -25%; /* Desplaza la imagen a la izquierda */
+}
+
+.right-side {
+    right: -25%; /* Desplaza la imagen a la derecha */
+}
+
+.side-image {
+    max-width: 100%;
+    height: auto;
+    position: relative; /* Añadido para controlar el z-index */
+    z-index: 0; /* Añadido para controlar el z-index */
+}
+
+.mini-menu {
+    background-color: #f7bbd4;
+    color: #000;
+}
+
+.mini-menu a {
+    text-decoration: none;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+
+.mini-menu a:hover {
+    text-decoration: none;
+    color:#BF1450;
+    font-weight: bold;
+}
+
+.catalogo-section {
+    margin: 20px 0;
+}
+
+.catalogo-col {
+    margin-bottom: 20px;
+}
+
+.card {
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.etiqueta {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ed1e79;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.row{
+    margin-left: 150px;
+}
+
+#nosotros .row {
+    margin-left: 0;
+    margin-right: 0; /* Ajustar también el margen derecho si es necesario */
+}
+
+.nosotros-cuadro {
+    padding: 10px; /* Espacio interno de la caja */
+    transition: transform 0.3s ease, padding 0.3s ease; /* Transición suave */
+    max-width: 500px; /* Ancho máximo de la caja */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.nosotros-cuadro:hover {
+    
+    padding: 5px; /* Reducir el espacio interno al hacer hover */
+}
+
+.nosotros-cuadro h3 {
+    font-size: 1.5rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio bajo el título */
+}
+
+.nosotros-cuadro p {
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+#desplegar {
+    display: none;}
+
+    
+/* Estilos para las secciones de Catálogo */
+.catalogo1-section {
+    margin-bottom: 50px;
+}
+
+/* Estilos para las tarjetas en Catálogo */
+.catalogo1-section .card {
+    background-color: #F7BBD4; /* Rosa claro */
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.catalogo1-section .card:hover {
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    display:block;
+}
+
+.catalogo1-section .card-body {
+    text-align: center;
+    display: block;
+}
+
+/* Estilos para organizar las tarjetas en 3 columnas */
+.catalogo1-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: block;
+}
+
+.catalogo1-col {
+    flex: 1 0 30%; /* Tres tarjetas por fila */
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 15px;
+    display: block;
+}
+
+#catalogo1 h1{
+    text-align: center;
+    
+    font-family: 'Lilita One', cursive; /* Tipografía cursiva */
+    color: #ED1E79; /* Rosa */
+    margin-bottom: 30px;
+    display: block;
+}
+#catalogo1{
+    display: none;
+}
+
+@media  screen and (max-width:780px) {
+
+    body {
+        background-color:#fff;
+    }
+    #menu-principal #desplegar {
+        display: block;
+        padding: 0px;
+        font: bold 2rem verdana, sans-serif;
+        border: 0px;
+        text-align: right;
+    }
+    #conceptos{
+        width: 80%;
+    }
+    
+    #conceptos1{
+        width: 80%;
+        padding:0;
+    }
+
+    .my-col {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+.row{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.card {
+    width: 100%;
+    display: flex;
+}
+
+#conceptos2 h1, #conceptos h1{
+    text-align: center;
+    margin-left: 5%;
+}
+
+#conceptos, #conceptos2 {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* Color de texto normal */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+.navbar-nav .nav-link:hover {
+    color:slateblue; /* Color de texto al pasar el cursor */
+}
+
+.navbar:hover {
+    background-color: #ED1E79; /* Color de fondo al pasar el cursor */
+}
+ #galeria{
+    width: 100%;
+ }
+    
+}
