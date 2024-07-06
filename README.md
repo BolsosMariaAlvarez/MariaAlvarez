@@ -1,0 +1,1 @@
+Este repositorio contiene el código fuente de la página web de María Álvarez. La página está diseñada para proporcionar una experiencia visual atractiva y funcional a nuestros clientes, destacando nuestros productos y promoviendo nuestra marca.
